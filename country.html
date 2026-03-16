@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Country</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="country.css" />
+    <script src="country.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <a href="./index.html"><h2>Where in the world?</h2></a>
+        <p><i class="fa-regular fa-moon"></i>&nbsp;<span>Dark Mode</span></p>
+      </div>
+    </header>
+
+    <main>
+      <span class="back-btn" onclick="history.back()"
+        ><i class="fa-solid fa-arrow-left"></i>&nbsp;Back</span
+      >
+      <div class="country-details-container">
+        <img class="country-flag-img" src="" alt="" />
+        <div class="country-details">
+          <h2 class="country-title"></h2>
+          <div>
+            <p><b>Native Name: </b><span class="native-name"></span></p>
+            <p><b>Population: </b><span class="population"></span></p>
+            <p><b>Region: </b><span class="region"></span></p>
+            <p><b>Sub Region: </b><span class="sub-region"></span></p>
+            <p><b>Capital: </b><span class="capital"></span></p>
+            <p><b>Top Level Domain: </b><span class="tld"></span></p>
+            <p><b>Currencies: </b><span class="currencies"></span></p>
+            <p><b>Languages: </b><span class="language"></span></p>
+          </div>
+          <p class="border-countries"><b>Border Countries: </b></p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
